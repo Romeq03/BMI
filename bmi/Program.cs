@@ -5,7 +5,7 @@
     {
         Console.WriteLine("Enter your weight in kilograms: ");
         double weight = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Enter your height in meters, e.g. 1.90: ");
+        Console.WriteLine("Enter your height in meters, e.g. 1,90: ");
         double hight = Convert.ToDouble(Console.ReadLine());
         double bmi = weight / (hight * hight);
         Console.WriteLine(bmi);
